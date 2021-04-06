@@ -3,8 +3,8 @@ import "./style.css";
 
 function Footer() {
   return (
-    <footer className="footer fixed-bottom">
-      <span>Employee Directory - Ashley Stith - 1 April 21</span>
+    <footer className="footer">
+      <span>React Portfolio - Ashley Stith - 8 April 21</span>
     </footer>
   );
 }

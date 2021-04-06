@@ -1,23 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
 import React from "react";
-import Navbar from "./components/Navbar";
-import Jumbotron from "./components/Jumbotron";
-import Wrapper from "./components/Wrapper";
+import Top from "./components/Top";
+import Header from "./components/Header";
 import Footer from "./components/Footer";
 
 function App() {
   return (
     <div>
-      <Navbar />
-      <Jumbotron />
-      <div className="container">
-
-        <Wrapper>
-
-        </Wrapper>
-
-      </div>
+        <Top>
+            <Header />
+            <div className="container">
+            </div>
+        </Top>
       <Footer />
     </div>
   );

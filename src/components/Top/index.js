@@ -1,45 +1,58 @@
 import React, { Component } from "react";
 import Typical from 'react-typical';
+import { Animate, AnimateKeyframes }  from 'react-simple-animate';
 import Header from "../Header";
 import "./style.css";
+import $ from "jquery";
 
 class Top extends Component {
 
-  state = {
-    height: "",
-    width: ""
-  };
+    state = {
+        play:false,
+        render: false,
+        animateFlag: false
+    };
 
-  componentDidMount() {
-    this.getBrowserDimensions();
+    // When the component mounts, make the API call to get 50 employees
+    componentDidMount() {
+        this.setState({ play:"play"});
 
-  }
+            console.log("Setting timeout")
+            setTimeout(function() { //Start the timer
+                // this.setState({render: true}) //After 15 seconds, set render to true
+                $("#MyWorkButton").removeClass("hide");
+                // render = "true"
+                console.log("delay")
+            }.bind(this), 12000)
 
-  getBrowserDimensions = () => {
-    let browserHeight = document.getElementById("wrapper").clientHeight - 20;
-    console.log(browserHeight);
-    this.setState({height: browserHeight});
-  }
+    }
 
-  render() {
-    return (
+    render() {
 
-      <div id= "wrapper" className="wrapper ">
-        <Header />
-        <div className="container align-middle" >
-          <h1>Hi, my name is <span className="highlighted-text">Ashley Stith.</span></h1>
-          <Typical
-            steps={['Nice to meet you! 👋🏾', 3000, 'I am a full-stack web developer.', 3000, 'Take a look at my work! 👇🏾', 3000, ]}
-            // loop={Infinity}
-            wrapper="h2"
-          />
+        return (
+            <div id= "wrapper" className="wrapper ">
+                <Header />
+                <div className="container align-middle" >
+                    <h1>Hi, my name is <span className="highlighted-text">Ashley Stith.</span></h1>
+                    <Typical
+                        steps={['Nice to meet you! 👋🏾', 3000, 'I am a full-stack web developer.', 3000, 'Take a look at my work! 👇🏾', 3000, ]}
 
-        </div>
+                        wrapper="h2"
+                    />
+                    <AnimateKeyframes
+                        play="play" // set play true to start the animation
+                        duration={7} // how long is the animation duration
+                        delay={11}
+                        keyframes={["opacity: 0", "opacity: 1"]}
+                    >
+                        <button id="MyWorkButton" className="hide">View My Work</button>
+                    </AnimateKeyframes>
 
-      </div>
 
-    )
-  }
+                </div>
+            </div>
+        )
+    }
 }
 
 export default Top;

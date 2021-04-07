@@ -7,8 +7,7 @@ function Header() {
   return (
     <div>
       <Navbar />
-      <div className="jumbotron">
-      </div>
+      <span className="snowflake"></span>
     </div>
 
   );

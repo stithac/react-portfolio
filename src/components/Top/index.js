@@ -8,6 +8,8 @@ import Footer from "../Footer";
 import Portfolio from "../../pages/Portfolio";
 import "./style.css";
 import $ from "jquery";
+import down from "./down-arrow.png";
+import wave from "./hand-wave.png"
 
 class Top extends Component {
 
@@ -19,15 +21,14 @@ class Top extends Component {
 
     // When the component mounts, make the API call to get 50 employees
     componentDidMount() {
-        // this.setState({ play:"play"});
 
             console.log("Setting timeout")
             setTimeout(function() { //Start the timer
-                // this.setState({render: true}) //After 15 seconds, set render to true
+
                 $("#MyWorkButton").removeClass("hide");
                 // render = "true"
                 console.log("delay")
-            }.bind(this), 12000)
+            }.bind(this), 19500)
 
     }
 
@@ -38,22 +39,18 @@ class Top extends Component {
 
                 <div className="container align-middle top-container" >
                     <h1>Hi, my name is <span className="highlighted-text">Ashley Stith.</span></h1>
-                    {/* <Typical
-                        steps={['Nice to meet you! 👋🏾', 3000, 'I am a full-stack web developer.', 3000, 'Take a look at my work! 👇🏾', 3000, ]}
-
-                        wrapper="h2"
-                    /> */}
-                    <Typist className="typist">
+                    <Typist avgTypingDelay={125} className="typist">
                         <span> Nice to meet you! 👋🏾</span>
-                        <Typist.Backspace count={22} delay={2000} />
+                        <Typist.Backspace count={22} delay={1000} />
                         <span> I am a full-stack web developer. </span>
-                        <Typist.Backspace count={33} delay={2000} />
-                        <span> Take a look at my work! 👇🏾 </span>
+                        <Typist.Backspace count={33} delay={1000} />
+                        <span> Take a look at my work! <img className="emoji" src={down}></img> </span>
+
                     </Typist>
                     <AnimateKeyframes
                         play="play" // set play true to start the animation
                         duration={7} // how long is the animation duration
-                        delay={11}
+                        delay={19}
                         keyframes={["opacity: 0", "opacity: 1"]}
                     >
                         <button id="MyWorkButton" className="hide">View My Work</button>

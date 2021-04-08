@@ -1,0 +1,47 @@
+[
+    {
+      "id": 1,
+      "name": "Foodastic",
+      "delpoyed": "https://stithac.github.io/foodastic/",
+      "repo": "https://github.com/stithac/foodastic",
+      "description": "Foodastic is an application that allows users to search for recipes and restaurants. It features dynamically updated HTML and CSS powered by jQuery. It also includes 2 APIs to pull in information. The Spoonacular Food API is used to retrieve recipes, and the Yelp Fusion API is used to retrieve restaurants. The APIs are called via AJAX based on filter criteria input by the user. It is hosted on Github pages.",
+      "src": "foodastic-screenshot.PNG"
+    },
+    {
+        "id": 2,
+        "name": "Petocracy",
+        "delpoyed": "https://immense-coast-50151.herokuapp.com/",
+        "repo": "https://github.com/stithac/petocracy",
+        "description": "It demonstrates a full front end to back end app utilizing sequelize to perform all 4 CRUD operations. It utilizes node.js and an express server for the back end while the front end utilizes the Bulma framework. Displaying pet info to the user was accomplished through the use of the handlebar templating engine. The project structure followed the MVC. A mySQL database was incorporated and used w/ a sequelize ORM. In addition, application has been deployed to Heroku. ",
+        "screenshot-name": "petocracy-screenshot.PNG"
+      },
+
+      {
+        "id": 2,
+        "name": "Petocracy",
+        "delpoyed": "https://immense-coast-50151.herokuapp.com/",
+        "repo": "https://github.com/stithac/petocracy",
+        "description": "It demonstrates a full front end to back end app utilizing sequelize to perform all 4 CRUD operations. It utilizes node.js and an express server for the back end while the front end utilizes the Bulma framework. Displaying pet info to the user was accomplished through the use of the handlebar templating engine. The project structure followed the MVC. A mySQL database was incorporated and used w/ a sequelize ORM. In addition, application has been deployed to Heroku. ",
+        "screenshot-name": "petocracy-screenshot.PNG"
+      },
+
+      {
+        "id": 2,
+        "name": "Petocracy",
+        "delpoyed": "https://immense-coast-50151.herokuapp.com/",
+        "repo": "https://github.com/stithac/petocracy",
+        "description": "It demonstrates a full front end to back end app utilizing sequelize to perform all 4 CRUD operations. It utilizes node.js and an express server for the back end while the front end utilizes the Bulma framework. Displaying pet info to the user was accomplished through the use of the handlebar templating engine. The project structure followed the MVC. A mySQL database was incorporated and used w/ a sequelize ORM. In addition, application has been deployed to Heroku. ",
+        "screenshot-name": "petocracy-screenshot.PNG"
+      },
+
+      {
+        "id": 2,
+        "name": "Petocracy",
+        "delpoyed": "https://immense-coast-50151.herokuapp.com/",
+        "repo": "https://github.com/stithac/petocracy",
+        "description": "It demonstrates a full front end to back end app utilizing sequelize to perform all 4 CRUD operations. It utilizes node.js and an express server for the back end while the front end utilizes the Bulma framework. Displaying pet info to the user was accomplished through the use of the handlebar templating engine. The project structure followed the MVC. A mySQL database was incorporated and used w/ a sequelize ORM. In addition, application has been deployed to Heroku. ",
+        "screenshot-name": "petocracy-screenshot.PNG"
+      }
+
+
+  ]

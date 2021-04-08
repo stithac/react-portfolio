@@ -32,7 +32,7 @@ class Top extends Component {
         return (
             <div id= "wrapper" className="wrapper ">
                 <Header />
-                <div className="container align-middle" >
+                <div className="container align-middle top-container" >
                     <h1>Hi, my name is <span className="highlighted-text">Ashley Stith.</span></h1>
                     <Typical
                         steps={['Nice to meet you! 👋🏾', 3000, 'I am a full-stack web developer.', 3000, 'Take a look at my work! 👇🏾', 3000, ]}

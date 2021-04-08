@@ -1,5 +1,6 @@
 body {
     font-family: 'Open Sans Condensed', sans-serif !important;
+    color: #f2f2f2 !important;
 }
 
 .wrapper {
@@ -8,17 +9,21 @@ body {
     width: 100%;
     padding-bottom: 100px;
     background-color: #101010;
+    /* border-bottom: 2px solid #e060e7 !important; */
 }
 
 .container {
-    color: #f2f2f2;
     height: 100%;
+}
+
+.top-container {
     text-align:center;
     padding-top:15%;
+    color: #f2f2f2;
 }
 
 h1, h2, h3, h4 {
-    color: #fafafa;
+    color: #f2f2f2;
     font-family: 'Montserrat', sans-serif;
     text-shadow: 2px 2px black;
 }
@@ -51,6 +56,7 @@ button {
     background-color: #60e0d8 !important;
     width: 200px;
     font-size:24px !important;
+    font-weight:bold !important;
     color:black !important;
     margin-top: 25px;
     border: 1px solid #125a55;
@@ -61,7 +67,7 @@ button {
 
 button:hover {
     background-color: #e060e7 !important;
-    font-weight: bold !important;
+    font-weight:bold !important;
     color: black !important;
     text-decoration: none;
     transition: background-color 1s;

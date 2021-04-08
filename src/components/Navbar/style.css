@@ -13,6 +13,10 @@ a.navbar-brand {
   text-shadow: 1px 1px black;
 }
 
+a:hover {
+  color: #e060e7 !important;
+}
+
 .nav-item, .nav-link {
   color: #f2f2f2;
 }
@@ -26,6 +30,10 @@ svg {
   max-height:auto;
   fill:#f2f2f2 !important;
   margin-right: 10px !important;
+}
+
+svg:hover {
+  fill: #e060e7 !important;
 }
 
 .right {

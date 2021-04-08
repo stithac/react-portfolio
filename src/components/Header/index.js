@@ -7,7 +7,7 @@ function Header() {
   return (
     <div>
       <Navbar />
-      <span className="snowflake"></span>
+      {/* <span className="snowflake"></span> */}
     </div>
 
   );

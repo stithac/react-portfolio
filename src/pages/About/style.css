@@ -16,40 +16,23 @@
     text-align: left;
 }
 
-.pic {
+.about-pic {
     height:300px;
     width: auto;
-    /* border-radius: 50%; */
 }
 
-.big-text {
-    font-size: 80px;
-    font-family: 'Montserrat', sans-serif;
-    color: #f2f2f2;
-}
-
-.italicized-text {
-    font-size: 24px;
-    color:#60e0d8;
-    text-shadow: 2px 2px black;
-    font-style: italic;
-}
 
 .img-div {
     border-bottom: 2px solid #e060e7;
     border-radius: 5%;
 }
 
-.purple-text {
-    color:#e060e7;
-}
-
-.center {
-    text-align: center !important;
-}
-
 #skills-div {
     margin-top:20px;
+}
+
+#skills-div a:hover {
+    text-decoration: none;
 }
 
 .skill {

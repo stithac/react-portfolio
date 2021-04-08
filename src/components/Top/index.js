@@ -2,6 +2,9 @@ import React, { Component } from "react";
 import Typical from 'react-typical';
 import { Animate, AnimateKeyframes }  from 'react-simple-animate';
 import Header from "../Header";
+import About from "../../pages/About";
+import Footer from "../Footer";
+import Portfolio from "../../pages/Portfolio";
 import "./style.css";
 import $ from "jquery";
 
@@ -31,7 +34,7 @@ class Top extends Component {
 
         return (
             <div id= "wrapper" className="wrapper ">
-                <Header />
+
                 <div className="container align-middle top-container" >
                     <h1>Hi, my name is <span className="highlighted-text">Ashley Stith.</span></h1>
                     <Typical
@@ -50,6 +53,8 @@ class Top extends Component {
 
 
                 </div>
+                <About />
+                <Footer />
             </div>
         )
     }

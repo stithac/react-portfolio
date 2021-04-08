@@ -19,14 +19,16 @@ class About extends Component {
                     </div>
                     <div className="col-4">
                       <div className="img-div">
-                        <img className="pic" src="../../img/ashHeadshot.png"></img>
+                        <img className="about-pic" src="../../img/ashHeadshot.png"></img>
                       </div>
                       <div id="skills-div">
                         <div className="row">
                           <div className="col center">
-                            <div className="skill">
-                              <p>Resume</p>
-                            </div>
+                            <a href="../Stith,Ashley-September2020.pdf">
+                              <div className="skill">
+                                <p>Resume</p>
+                              </div>
+                            </a>
                           </div>
                         </div>
                       </div>

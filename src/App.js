@@ -12,7 +12,6 @@ function App() {
   return (
     <Router>
       <div>
-
           <Header />
           <Switch>
             <Route exact path="/" component={Top} />

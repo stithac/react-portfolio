@@ -54,6 +54,7 @@ class Top extends Component {
 
                 </div>
                 <About />
+                <Portfolio />
                 <Footer />
             </div>
         )

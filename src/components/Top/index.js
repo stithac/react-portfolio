@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Typical from 'react-typical';
+import Typist from 'react-typist';
 import { Animate, AnimateKeyframes }  from 'react-simple-animate';
 import Header from "../Header";
 import About from "../../pages/About";
@@ -18,7 +19,7 @@ class Top extends Component {
 
     // When the component mounts, make the API call to get 50 employees
     componentDidMount() {
-        this.setState({ play:"play"});
+        // this.setState({ play:"play"});
 
             console.log("Setting timeout")
             setTimeout(function() { //Start the timer
@@ -37,11 +38,18 @@ class Top extends Component {
 
                 <div className="container align-middle top-container" >
                     <h1>Hi, my name is <span className="highlighted-text">Ashley Stith.</span></h1>
-                    <Typical
+                    {/* <Typical
                         steps={['Nice to meet you! 👋🏾', 3000, 'I am a full-stack web developer.', 3000, 'Take a look at my work! 👇🏾', 3000, ]}
 
                         wrapper="h2"
-                    />
+                    /> */}
+                    <Typist className="typist">
+                        <span> Nice to meet you! 👋🏾</span>
+                        <Typist.Backspace count={22} delay={2000} />
+                        <span> I am a full-stack web developer. </span>
+                        <Typist.Backspace count={33} delay={2000} />
+                        <span> Take a look at my work! 👇🏾 </span>
+                    </Typist>
                     <AnimateKeyframes
                         play="play" // set play true to start the animation
                         duration={7} // how long is the animation duration

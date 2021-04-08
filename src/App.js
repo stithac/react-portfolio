@@ -6,7 +6,8 @@ import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
+
 
 function App() {
   return (
@@ -15,9 +16,9 @@ function App() {
           <Header />
           <Switch>
             <Route exact path="/" component={Top} />
-            <Route exact path="/home" component={Top} />
-            <Route exact path="/about" component={About} />
-            <Route exact path="/portfolio" component={Portfolio} />
+            <Route path="/home" component={Top} />
+            <Route path="/about" component={About} />
+            <Route path="/portfolio" component={Portfolio} />
           </Switch>
 
       </div>

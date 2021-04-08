@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import "./style.css";
+import img from "./ashHeadshot.png"
+import { Link } from "react-router-dom";
 
 class About extends Component {
 
@@ -19,16 +21,16 @@ class About extends Component {
                     </div>
                     <div className="col-4">
                       <div className="img-div">
-                        <img className="about-pic" src="../../img/ashHeadshot.png"></img>
+                        <img className="about-pic" src={img}></img>
                       </div>
                       <div id="skills-div">
                         <div className="row">
                           <div className="col center">
-                            <a href="../Stith,Ashley-September2020.pdf">
+                            <Link to="../Stith,Ashley-September2020.pdf">
                               <div className="skill">
                                 <p>Resume</p>
                               </div>
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>

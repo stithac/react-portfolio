@@ -16,9 +16,7 @@
         justify-content: space-around;
         align-content: flex-start;
         overflow: auto;
-
 }
-
 
 .cursor {
     cursor: pointer;

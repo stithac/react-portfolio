@@ -67,21 +67,21 @@ class Top extends Component {
                             <button id="MyWorkButton" className="hide default-button">View My Work</button>
                         </Link>
                     </AnimateKeyframes>
-
-
                 </div>
-                <div id="imageDiv" >
+                    <div id="imageDiv" >
                     <Link className="cursor"
-                     to="upArrow"
+                     to="hello"
                      spy={true}
                      smooth={true}
                      offset={-70}
                      duration={1000}
                      >
-                        <img id="downArrow" src={downArrow}></img>
+                        <img id="downArrow" className="arrow" src={downArrow}></img>
                     </Link>
 
                 </div>
+
+
 
                 <About footer={false}/>
                 <div id="portfolio" className="section"><Portfolio button="hide" /></div>

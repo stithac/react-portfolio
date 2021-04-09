@@ -41,15 +41,46 @@ body {
   font-family: 'Open Sans Condensed', sans-serif !important;
   color: #f2f2f2 !important;
   background-color: #101010 !important;
+  overflow-y: auto;
+}
+body{
+  /* scrollbar-face-color: #367CD2 ; */
+  scrollbar-shadow-color: #FFFFFF;
+  scrollbar-highlight-color: #FFFFFF;
+  scrollbar-3dlight-color: #FFFFFF;
+  scrollbar-darkshadow-color: #FFFFFF;
+  scrollbar-track-color: #FFFFFF;
+  scrollbar-arrow-color: #FFFFFF;
 }
 
 .wrapper {
   /* min-height: 100%; */
   height: 100vh;
   width: 100%;
-  padding-bottom: 100px;
+  padding-bottom: 30px;
   background-color: #101010;
-  /* border-bottom: 2px solid #e060e7 !important; */
+
+}
+
+
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+/* Handle */
+body::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: #60e0d8;
+  border:2px solid black;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
 }
 
 .container {
@@ -118,19 +149,19 @@ h4 {
 }
 
 .default-button {
-  background-color: #60e0d8 !important;
+  background-color: #60e0d8  !important;
   width: 200px;
   font-size:24px !important;
   font-weight:bold !important;
   color:black !important;
   margin-top: 25px;
-  border: 1px solid #125a55;
+  border: 1px solid black;
   box-shadow: 2px 2px 2px black;
   border-radius: 30px !important;
 }
 
 button:hover {
-  background-color: #e060e7 !important;
+  background-color:#e060e7 !important;
   font-weight:bold !important;
   color: black !important;
   text-decoration: none;
@@ -149,6 +180,33 @@ animation-duration: 5s;
   display:none;
 }
 
+/* Media Queries for extra small screens */
+@media(max-width:500px){
+
+
+  h1, .big-text {
+    font-size:32px !important;
+  }
+  h2, .typist {
+    font-size: 26px !important;
+  }
+
+  .about-pic {
+    height: 200px !important;
+    width: auto;
+
+  }
+
+  .portfolio {
+    margin-top:500px;
+  }
+}
+
+.arrow {
+  width: 30px;
+  height: auto;
+
+}
 /* Media Queries for small screens */
 @media(max-width:576px){
 

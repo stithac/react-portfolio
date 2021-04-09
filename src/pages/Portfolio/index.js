@@ -38,20 +38,6 @@ function Portfolio(props) {
     } else return (
             <div>
                 <div className="portfolio">
-                    <div className = "container">
-                        <div id="portfolioDiv" >
-                            <Link className="cursor"
-                            to="wrapper"
-                            spy={true}
-                            smooth={true}
-                            offset={-70}
-                            duration={1000}>
-                                <img  id="upArrow" src={upArrow}></img>
-                            </Link>
-
-
-                        </div>
-                    </div>
 
                     <h1 className="underlined-text" id="projects-title">My Latest Projects</h1>
                     <div className="container project-wrapper">
@@ -69,7 +55,20 @@ function Portfolio(props) {
                         />
                         ))}
                     </div>
+                    <div className = "container">
+                        <div id="portfolioDiv" >
+                            <Link className="cursor"
+                            to="wrapper"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={1000}>
+                                <img  id="upArrow" className="arrow" src={upArrow}></img>
+                            </Link>
 
+
+                        </div>
+                    </div>
                 </div>
 
             </div>

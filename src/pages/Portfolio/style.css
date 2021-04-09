@@ -19,11 +19,6 @@
 
 }
 
-#upArrow {
-    width: 50px;
-    height: auto;
-
-}
 
 .cursor {
     cursor: pointer;
@@ -31,5 +26,6 @@
 
 #portfolioDiv {
     width: 100%;
-    text-align: right !important;
+    text-align: center;
+    margin-bottom:25px;
 }

@@ -14,7 +14,7 @@
     width: 350px;
     height:450px;
     /* box-shadow: 0 3px 3px  #61dafb, 0 3px 3px #61dafb; */
-    background: #61dafb !important;
+    background: #60e0d8 !important;
     /* cursor:pointer; */
   }
 
@@ -50,17 +50,4 @@
 
   .card > .content > ul > li {
     margin-top: 18px;
-  }
-
-  .card > .remove {
-    color: #ff1744;
-    font-size: 48px;
-    position: absolute;
-    top: -20px;
-    right: 5px;
-    cursor: pointer;
-  }
-
-  .card > .remove:hover {
-    color: #d50000;
   }

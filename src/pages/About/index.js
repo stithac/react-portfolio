@@ -139,7 +139,10 @@ function About(props) {
                       </div>
                     </div>
                   </div>
-                  <div id="arrow-div" >
+
+                </div>
+              </div>
+              <div id="arrow-div" >
                     <Link className="cursor"
                      to="projects-title"
                      spy={true}
@@ -150,8 +153,6 @@ function About(props) {
                         <img id="about-arrow" className="arrow" src={downArrow}></img>
                     </Link>
                   </div>
-                </div>
-              </div>
             </div>
 
         </div>

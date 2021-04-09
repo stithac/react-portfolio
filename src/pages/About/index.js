@@ -131,7 +131,7 @@ function About(props) {
                           <a href={resume}>
                               <div className="skill">
                               <img className="arrow" src={document}></img>
-                                <p>MyResume</p>
+                                <p>My Resume</p>
                               </div>
                             </a>
                           </div>

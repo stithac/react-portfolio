@@ -32,7 +32,7 @@ function Project(props) {
             </a>
           </li>
 
-          <li>
+          <li id="simple-text">
             {props.simple}
           </li>
           <li>

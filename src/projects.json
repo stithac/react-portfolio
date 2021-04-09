@@ -4,7 +4,7 @@
       "name": "Foodastic",
       "deployed": "https://stithac.github.io/foodastic/",
       "repo": "https://github.com/stithac/foodastic",
-      "simple":"A pet sponsoring and services app",
+      "simple":"An app to help decide what’s for lunch/dinner!!!",
       "description": "Foodastic is an application that allows users to search for recipes and restaurants. It features dynamically updated HTML and CSS powered by jQuery. It also includes 2 APIs to pull in information. The Spoonacular Food API is used to retrieve recipes, and the Yelp Fusion API is used to retrieve restaurants. The APIs are called via AJAX based on filter criteria input by the user. It is hosted on Github pages.",
       "src": "foodastic-screenshot.PNG"
     },
@@ -22,7 +22,7 @@
         "name": "Petocracy",
         "deployed": "https://immense-coast-50151.herokuapp.com/",
         "repo": "https://github.com/stithac/petocracy",
-        "simple":"An app to help decide what’s for lunch/dinner!!!",
+        "simple":"A pet sponsoring and services app",
         "description": "It demonstrates a full front end to back end app utilizing sequelize to perform all 4 CRUD operations. It utilizes node.js and an express server for the back end while the front end utilizes the Bulma framework. Displaying pet info to the user was accomplished through the use of the handlebar templating engine. The project structure followed the MVC. A mySQL database was incorporated and used w/ a sequelize ORM. In addition, application has been deployed to Heroku. ",
         "screenshot-name": "petocracy-screenshot.PNG"
       },
@@ -45,10 +45,10 @@
       },
       {
         "id": 6,
-        "name": "Burger",
+        "name": "Eat-da-Burger",
         "deployed": "https://floating-taiga-37389.herokuapp.com/",
         "repo": "https://github.com/stithac/burger",
-        "simple":"Eat-da-Burger App",
+        "simple":"A burger ordering and devouring app",
         "description": "",
         "screenshot-name": "burger-screenshot.PNG"
       }

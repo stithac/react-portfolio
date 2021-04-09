@@ -6,10 +6,13 @@ import Header from "../Header";
 import About from "../../pages/About";
 import Footer from "../Footer";
 import Portfolio from "../../pages/Portfolio";
+// import { Link } from "react-router-dom";
+import {Link,animateScroll } from "react-scroll";
 import "./style.css";
 import $ from "jquery";
 import down from "./down-arrow.png";
-import wave from "./hand-wave.png"
+import wave from "./hand-wave.png";
+import downArrow from "./down.png"
 
 class Top extends Component {
 
@@ -53,13 +56,29 @@ class Top extends Component {
                         delay={19}
                         keyframes={["opacity: 0", "opacity: 1"]}
                     >
-                        <button id="MyWorkButton" className="hide">View My Work</button>
+                        {/* <Link className="nav-link" to="/portfolio"><button id="MyWorkButton" className="hide">View My Work</button></Link> */}
+
                     </AnimateKeyframes>
 
 
                 </div>
+                <div id="imageDiv" >
+                    <Link className="cursor"
+                     to="portfolio"
+                     spy={true}
+                     smooth={true}
+                     offset={-70}
+                     duration={1000}>
+                        <img id="downArrow" src={downArrow}></img>
+                    </Link>
+
+                </div>
+
                 <About />
-                <Portfolio />
+                <div id="portfolio" className="section"><Portfolio /></div>
+
+
+
                 <Footer />
             </div>
         )

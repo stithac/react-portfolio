@@ -10,6 +10,20 @@
     text-align: left;
   }
 
+  .card:hover {
+    width: 350px;
+    height:450px;
+    /* box-shadow: 0 3px 3px  #61dafb, 0 3px 3px #61dafb; */
+    background: #61dafb !important;
+    /* cursor:pointer; */
+  }
+
+  .card:hover #simple-text, .card:hover h4{
+    color:black !important;
+    font-weight:bold !important;
+    text-shadow:none;
+  }
+
   .card > .img-container {
     height: 100%;
     overflow: hidden;

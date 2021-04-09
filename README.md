@@ -9,14 +9,15 @@ This React App is built using the Bootstrap framework to ensure responsiveness o
 Repo has been updated for the Career assignment: React Portfolio.
 
 ### Home page:
-![Home Page](./screenshots/home-screenshot.PNG)
+![Home Page](./public/screenshots/home-screenshot.PNG)
 
 ### About page:
-![About Page](./screenshots/about-screenshot.PNG)
+![About Page](./public/screenshots/about-screenshot.PNG)
 
 ### Portfolio page:
 Note: For screenshot, page was scrolled up to see footer
-![Portfolio Page](./screenshots/portfolio-screenshot.PNG)
+
+![Portfolio Page](./public/screenshots/portfolio-screenshot.PNG)
 
 ## Installation
 * Install node.js to computer, if not already present.

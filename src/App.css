@@ -113,12 +113,11 @@ h4 {
 
 .italicized-text {
   font-size: 24px;
-  color:#60e0d8;
   text-shadow: 2px 2px black;
   font-style: italic;
 }
 
-button {
+.default-button {
   background-color: #60e0d8 !important;
   width: 200px;
   font-size:24px !important;
@@ -148,4 +147,43 @@ animation-duration: 5s;
 
 .hide {
   display:none;
+}
+
+/* Media Queries for small screens */
+@media(max-width:576px){
+
+
+  h1, .big-text {
+    font-size:32px !important;
+  }
+  h2, .typist {
+    font-size: 26px !important;
+  }
+
+  .about-pic {
+    height: 200px !important;
+    width: auto;
+
+  }
+
+  .portfolio {
+    margin-top:450px;
+  }
+}
+/* Media Queries for medium screens*/
+@media(max-width:768px){
+  #contact-me-form-card{
+      width: 100%;
+  }
+}
+/* Media Queries for large screens*/
+@media (max-width:991.98px){
+  .portfolio-pic{
+      max-height:70px;
+      width:auto;
+      margin-bottom:5px;
+  }
+  figcaption{
+      font-size:14px;
+  }
 }

@@ -64,7 +64,7 @@ class Top extends Component {
                         offset={-70}
                         duration={1000}
                         >
-                            <button id="MyWorkButton" className="hide">View My Work</button>
+                            <button id="MyWorkButton" className="hide default-button">View My Work</button>
                         </Link>
                     </AnimateKeyframes>
 

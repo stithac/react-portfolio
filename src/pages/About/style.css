@@ -20,12 +20,13 @@
 .about-pic {
     height:300px;
     width: auto;
+    margin: 0 auto;
 }
-
 
 .img-div {
     border-bottom: 2px solid #e060e7;
     border-radius: 5%;
+    text-align:center;
 }
 
 #skills-div {
@@ -39,12 +40,19 @@
 .skill {
     height:75px;
     width: 75px;
-    margin: 0 auto;
+    margin: 15px auto  0 auto;
     background-color: #60e0d8;
+    border: 1px solid #e060e7;
     box-shadow: 2px 2px black;
     border-radius: 50%;
     padding-top:5%;
     color:black !important;
     font-weight: bold;
     font-size:20px;
+}
+
+#mySkills {
+    width:100%;
+    font-size: 24px;
+    text-shadow: 2px 2px black;
 }

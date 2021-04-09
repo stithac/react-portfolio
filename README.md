@@ -7,9 +7,6 @@
 ## Description
 This React App is built using the Bootstrap framework to ensure responsiveness on a variety of devices and windows.  It includes one html page, 3 routes, and several components.  One particular component "Project" is rendered to the dom 6 times in the Portfolio component.  A few dependencies are required for the minor animations throughout the application.  The navigation and footer components are included on all "pages"/routes.
 
-## Portfolio Page
-Repo has been updated for the Career assignment: React Portfolio.
-
 ### Home page:
 ![Home Page](./public/screenshots/home-screenshot.PNG)
 

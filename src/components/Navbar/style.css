@@ -41,3 +41,7 @@ svg:hover {
   width:100%;
   align-content: right !important;
 }
+
+.navbar-toggler {
+  display:block;
+}

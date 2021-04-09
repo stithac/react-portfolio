@@ -217,9 +217,7 @@ animation-duration: 5s;
 /* Media Queries for medium screens*/
 @media(max-width:768px){
 
-  #about-arrow {
-    display: none;
-  }
+
 
 }
 /* Media Queries for large screens*/
@@ -235,5 +233,11 @@ animation-duration: 5s;
   .skill {
     margin: 0;
     padding-top: 3% !important;
+  }
+  #about-arrow {
+    display: none;
+  }
+  .about{
+    height:100% !important;
   }
 }

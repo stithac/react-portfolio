@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.26b51cff.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.2537cd9e.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.2537cd9e.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.c8962174.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.95ad7df7.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.95ad7df7.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.a24051db.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.a24051db.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/react-portfolio/static/css/2.4c97ca4f.chunk.css",
@@ -12,18 +12,25 @@
     "static/js/3.f1b83153.chunk.js.map": "/react-portfolio/static/js/3.f1b83153.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/react-portfolio/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.26b51cff.chunk.css.map": "/react-portfolio/static/css/main.26b51cff.chunk.css.map",
+    "static/css/main.c8962174.chunk.css.map": "/react-portfolio/static/css/main.c8962174.chunk.css.map",
     "static/js/2.31b78d04.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.31b78d04.chunk.js.LICENSE.txt",
     "static/media/ashHeadshot.25b934dd.png": "/react-portfolio/static/media/ashHeadshot.25b934dd.png",
+    "static/media/budget-screenshot.13b4d1bf.PNG": "/react-portfolio/static/media/budget-screenshot.13b4d1bf.PNG",
+    "static/media/burger-screenshot.28424b00.PNG": "/react-portfolio/static/media/burger-screenshot.28424b00.PNG",
+    "static/media/employee-screenshot.8b5d4196.PNG": "/react-portfolio/static/media/employee-screenshot.8b5d4196.PNG",
     "static/media/foodastic-screenshot.3e6c18f5.PNG": "/react-portfolio/static/media/foodastic-screenshot.3e6c18f5.PNG",
+    "static/media/password-screenshot.252d5cbf.PNG": "/react-portfolio/static/media/password-screenshot.252d5cbf.PNG",
     "static/media/petocracy-screenshot.43b63757.PNG": "/react-portfolio/static/media/petocracy-screenshot.43b63757.PNG",
-    "static/media/workday-screenshot.b4b3be3e.PNG": "/react-portfolio/static/media/workday-screenshot.b4b3be3e.PNG"
+    "static/media/resume.b3fc44c0.pdf": "/react-portfolio/static/media/resume.b3fc44c0.pdf",
+    "static/media/weather-screenshot.4bd9879b.PNG": "/react-portfolio/static/media/weather-screenshot.4bd9879b.PNG",
+    "static/media/workday-screenshot.b4b3be3e.PNG": "/react-portfolio/static/media/workday-screenshot.b4b3be3e.PNG",
+    "static/media/workout-screenshot.b551b73d.PNG": "/react-portfolio/static/media/workout-screenshot.b551b73d.PNG"
   },
   "entrypoints": [
     "static/js/runtime-main.a24051db.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.31b78d04.chunk.js",
-    "static/css/main.26b51cff.chunk.css",
-    "static/js/main.2537cd9e.chunk.js"
+    "static/css/main.c8962174.chunk.css",
+    "static/js/main.95ad7df7.chunk.js"
   ]
 }

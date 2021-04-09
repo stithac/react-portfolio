@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./style.css";
 import img from "./ashHeadshot.png"
+import resume from "./resume.pdf"
 import { Link } from "react-router-dom";
 
 class About extends Component {
@@ -26,11 +27,11 @@ class About extends Component {
                       <div id="skills-div">
                         <div className="row">
                           <div className="col center">
-                            <Link to="../Stith,Ashley-September2020.pdf">
+                            <a href={resume}>
                               <div className="skill">
                                 <p>Resume</p>
                               </div>
-                            </Link>
+                            </a>
                           </div>
                         </div>
                       </div>

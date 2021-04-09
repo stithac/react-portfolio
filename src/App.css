@@ -77,8 +77,17 @@ h3 {
 
 }
 
+h4 {
+  font-size: 20px;
+
+}
+
 .purple-text {
   color:#e060e7;
+}
+
+.turquoise-text {
+  color:#60e0d8;
 }
 
 .center {
@@ -89,6 +98,11 @@ h3 {
   color:#60e0d8;
   font-weight: bold;
   font-family: 'Montserrat', sans-serif;
+}
+
+.underlined-text {
+  text-decoration: underline #e060e7 2px;
+
 }
 
 .big-text {

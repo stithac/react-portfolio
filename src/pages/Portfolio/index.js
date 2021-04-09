@@ -13,7 +13,7 @@ class Portfolio extends Component {
         return (
             <div>
                 <div className="portfolio">
-                    <h1>Projects</h1>
+                    <h1 className="underlined-text">Projects</h1>
                     <div className="container project-wrapper">
 
                         {this.state.projects.map(project => (
@@ -23,7 +23,9 @@ class Portfolio extends Component {
                             name={project.name}
                             deployed={project.deployed}
                             repo={project.repo}
+                            // description={project.description}
                             src={project.src}
+                            simple={project.simple}
                         />
                         ))}
                     </div>

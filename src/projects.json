@@ -2,46 +2,54 @@
     {
       "id": 1,
       "name": "Foodastic",
-      "delpoyed": "https://stithac.github.io/foodastic/",
+      "deployed": "https://stithac.github.io/foodastic/",
       "repo": "https://github.com/stithac/foodastic",
+      "simple":"A pet sponsoring and services app",
       "description": "Foodastic is an application that allows users to search for recipes and restaurants. It features dynamically updated HTML and CSS powered by jQuery. It also includes 2 APIs to pull in information. The Spoonacular Food API is used to retrieve recipes, and the Yelp Fusion API is used to retrieve restaurants. The APIs are called via AJAX based on filter criteria input by the user. It is hosted on Github pages.",
       "src": "foodastic-screenshot.PNG"
     },
     {
         "id": 2,
+        "name": "Password Generator",
+        "deployed": "https://stithac.github.io/hw3PasswordGenerator/",
+        "repo": "https://github.com/stithac/hw3PasswordGenerator",
+        "simple":"An app to create a random password",
+        "description": "",
+        "screenshot-name": "password-screenshot.PNG"
+      },
+      {
+        "id": 3,
         "name": "Petocracy",
-        "delpoyed": "https://immense-coast-50151.herokuapp.com/",
+        "deployed": "https://immense-coast-50151.herokuapp.com/",
         "repo": "https://github.com/stithac/petocracy",
+        "simple":"An app to help decide what’s for lunch/dinner!!!",
         "description": "It demonstrates a full front end to back end app utilizing sequelize to perform all 4 CRUD operations. It utilizes node.js and an express server for the back end while the front end utilizes the Bulma framework. Displaying pet info to the user was accomplished through the use of the handlebar templating engine. The project structure followed the MVC. A mySQL database was incorporated and used w/ a sequelize ORM. In addition, application has been deployed to Heroku. ",
         "screenshot-name": "petocracy-screenshot.PNG"
       },
-
       {
-        "id": 2,
-        "name": "Petocracy",
-        "delpoyed": "https://immense-coast-50151.herokuapp.com/",
-        "repo": "https://github.com/stithac/petocracy",
-        "description": "It demonstrates a full front end to back end app utilizing sequelize to perform all 4 CRUD operations. It utilizes node.js and an express server for the back end while the front end utilizes the Bulma framework. Displaying pet info to the user was accomplished through the use of the handlebar templating engine. The project structure followed the MVC. A mySQL database was incorporated and used w/ a sequelize ORM. In addition, application has been deployed to Heroku. ",
-        "screenshot-name": "petocracy-screenshot.PNG"
+        "id": 4,
+        "name": "Employee Directory",
+        "deployed": "https://stithac.github.io/employee-directory",
+        "repo": "https://github.com/stithac/employee-directory",
+        "simple":"An employee directory React app",
+        "description": "",
+        "screenshot-name": "employee-screenshot.PNG"
       },
-
-      {
-        "id": 2,
-        "name": "Petocracy",
-        "delpoyed": "https://immense-coast-50151.herokuapp.com/",
-        "repo": "https://github.com/stithac/petocracy",
-        "description": "It demonstrates a full front end to back end app utilizing sequelize to perform all 4 CRUD operations. It utilizes node.js and an express server for the back end while the front end utilizes the Bulma framework. Displaying pet info to the user was accomplished through the use of the handlebar templating engine. The project structure followed the MVC. A mySQL database was incorporated and used w/ a sequelize ORM. In addition, application has been deployed to Heroku. ",
-        "screenshot-name": "petocracy-screenshot.PNG"
+      {"id": 5,
+        "name": "Workout Tracker",
+        "deployed": "https://arcane-everglades-17005.herokuapp.com/",
+        "repo": "https://github.com/stithac/workout-tracker",
+        "simple":"A tracker to view, create and track daily workouts",
+        "description": "",
+        "screenshot-name": "workout-screenshot.PNG"
       },
-
       {
-        "id": 2,
-        "name": "Petocracy",
-        "delpoyed": "https://immense-coast-50151.herokuapp.com/",
-        "repo": "https://github.com/stithac/petocracy",
-        "description": "It demonstrates a full front end to back end app utilizing sequelize to perform all 4 CRUD operations. It utilizes node.js and an express server for the back end while the front end utilizes the Bulma framework. Displaying pet info to the user was accomplished through the use of the handlebar templating engine. The project structure followed the MVC. A mySQL database was incorporated and used w/ a sequelize ORM. In addition, application has been deployed to Heroku. ",
-        "screenshot-name": "petocracy-screenshot.PNG"
+        "id": 6,
+        "name": "Burger",
+        "deployed": "https://floating-taiga-37389.herokuapp.com/",
+        "repo": "https://github.com/stithac/burger",
+        "simple":"Eat-da-Burger App",
+        "description": "",
+        "screenshot-name": "burger-screenshot.PNG"
       }
-
-
   ]

@@ -1,7 +1,7 @@
 .portfolio {
     height: 100%;
     width: 100%;
-    padding-top:30px;
+    padding-top:80px;
     background-color: #101010 !important;
     text-align: center;
 }
@@ -9,7 +9,6 @@
 .project-wrapper {
 
         padding-top: 50px;
-
         height: 100%;
         display: flex;
         flex-flow: row wrap;

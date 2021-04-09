@@ -30,14 +30,14 @@ function About(props) {
 
                           <div className="row  center">
                             <span id="mySkills" className="turquoise-text center">My Skills:</span>
-                            <div className="col-md-12 col-lg-4">
+                            <div className="col-xs-12 col-sm-4">
                               <ul className="no-bullet">
                                 <li>HTML</li>
                                 <li>CSS</li>
                                 <li>JS/ jQuery</li>
                               </ul>
                             </div>
-                            <div className="col-md-12 col-lg-4">
+                            <div className="col-xs-12 col-sm-4">
                               <ul className="no-bullet">
                                 <li>NodeJS</li>
                                 <li>React</li>
@@ -45,7 +45,7 @@ function About(props) {
                               </ul>
 
                             </div>
-                            <div className="col-md-12 col-lg-4">
+                            <div className="col-xs-12 col-sm-4">
                               <ul className="no-bullet">
                                 <li>SQL</li>
                                 <li>MongoDB</li>
@@ -102,14 +102,14 @@ function About(props) {
 
                         <div className="row  center">
                           <span id="mySkills" className="turquoise-text center">My Skills:</span>
-                          <div className="col-md-12 col-lg-4">
+                          <div className="col-xs-12 col-sm-4">
                             <ul className="no-bullet">
                               <li>HTML</li>
                               <li>CSS</li>
                               <li>JS/ jQuery</li>
                             </ul>
                           </div>
-                          <div className="col-md-12 col-lg-4">
+                          <div className="col-xs-12 col-sm-4">
                             <ul className="no-bullet">
                               <li>NodeJS</li>
                               <li>React</li>
@@ -117,7 +117,7 @@ function About(props) {
                             </ul>
 
                           </div>
-                          <div className="col-md-12 col-lg-4">
+                          <div className="col-xs-12 col-sm-4">
                             <ul className="no-bullet">
                               <li>SQL</li>
                               <li>MongoDB</li>

@@ -1,7 +1,7 @@
 .portfolio {
     height: 100%;
     width: 100%;
-    padding-top:80px;
+    padding-top:60px;
     background-color: #101010 !important;
     text-align: center;
 }
@@ -17,4 +17,19 @@
         align-content: flex-start;
         overflow: auto;
 
+}
+
+#upArrow {
+    width: 50px;
+    height: auto;
+
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+#portfolioDiv {
+    width: 100%;
+    text-align: right !important;
 }

@@ -1,22 +1,23 @@
 import React, { Component } from "react";
 import "./style.css";
 import projects from "../../projects.json";
-import Project from "../../components/Project"
+import Project from "../../components/Project";
+import Footer from "../../components/Footer";
+import {Link,animateScroll } from "react-scroll";
+import upArrow from "./up-arrow.png";
 
-class Portfolio extends Component {
 
-    state = {
-        projects
-    }
+function Portfolio(props) {
 
-    render() {
+    if (props.button !== "hide"){
         return (
             <div>
                 <div className="portfolio">
+
                     <h1 className="underlined-text">Projects</h1>
                     <div className="container project-wrapper">
 
-                        {this.state.projects.map(project => (
+                        {projects.map(project => (
                         <Project
                             id={project.id}
                             key={project.id}
@@ -31,10 +32,50 @@ class Portfolio extends Component {
                     </div>
 
                 </div>
+                <Footer />
             </div>
         )
-    }
+    } else return (
+            <div>
+                <div className="portfolio">
+                    <div className = "container">
+                        <div id="portfolioDiv" >
+                            <Link className="cursor"
+                            to="wrapper"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={1000}>
+                                <img  id="upArrow" src={upArrow}></img>
+                            </Link>
+
+
+                        </div>
+                    </div>
+
+                    <h1 className="underlined-text">Projects</h1>
+                    <div className="container project-wrapper">
+
+                        {projects.map(project => (
+                        <Project
+                            id={project.id}
+                            key={project.id}
+                            name={project.name}
+                            deployed={project.deployed}
+                            repo={project.repo}
+                            // description={project.description}
+                            src={project.src}
+                            simple={project.simple}
+                        />
+                        ))}
+                    </div>
+
+                </div>
+
+            </div>
+        )
+
+
 }
 
 export default Portfolio;
-

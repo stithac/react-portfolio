@@ -19,7 +19,8 @@ class Top extends Component {
     state = {
         play:false,
         render: false,
-        animateFlag: false
+        animateFlag: false,
+        footer:false
     };
 
     // When the component mounts, make the API call to get 50 employees
@@ -56,8 +57,6 @@ class Top extends Component {
                         delay={19}
                         keyframes={["opacity: 0", "opacity: 1"]}
                     >
-                        {/* <Link className="nav-link" to="/portfolio"><button id="MyWorkButton" className="hide">View My Work</button></Link> */}
-
                     </AnimateKeyframes>
 
 
@@ -68,18 +67,17 @@ class Top extends Component {
                      spy={true}
                      smooth={true}
                      offset={-70}
-                     duration={1000}>
+                     duration={1000}
+                     >
                         <img id="downArrow" src={downArrow}></img>
                     </Link>
 
                 </div>
 
-                <About />
-                <div id="portfolio" className="section"><Portfolio /></div>
+                <About footer={false}/>
+                <div id="portfolio" className="section"><Portfolio button="hide" /></div>
 
-
-
-                <Footer />
+                <Footer footer={false} />
             </div>
         )
     }

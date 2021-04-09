@@ -14,7 +14,7 @@ function Portfolio(props) {
             <div>
                 <div className="portfolio">
 
-                    <h1 className="underlined-text">Projects</h1>
+                    <h1 className="underlined-text" id="projects-title">My Latest Projects</h1>
                     <div className="container project-wrapper">
 
                         {projects.map(project => (
@@ -53,7 +53,7 @@ function Portfolio(props) {
                         </div>
                     </div>
 
-                    <h1 className="underlined-text">Projects</h1>
+                    <h1 className="underlined-text" id="projects-title">My Latest Projects</h1>
                     <div className="container project-wrapper">
 
                         {projects.map(project => (

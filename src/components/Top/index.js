@@ -57,13 +57,22 @@ class Top extends Component {
                         delay={19}
                         keyframes={["opacity: 0", "opacity: 1"]}
                     >
+                        <Link className="cursor"
+                        to="upArrow"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={1000}
+                        >
+                            <button id="MyWorkButton" className="hide">View My Work</button>
+                        </Link>
                     </AnimateKeyframes>
 
 
                 </div>
                 <div id="imageDiv" >
                     <Link className="cursor"
-                     to="portfolio"
+                     to="upArrow"
                      spy={true}
                      smooth={true}
                      offset={-70}

@@ -58,7 +58,7 @@ class Top extends Component {
                         keyframes={["opacity: 0", "opacity: 1"]}
                     >
                         <Link className="cursor"
-                        to="upArrow"
+                        to="projects-title"
                         spy={true}
                         smooth={true}
                         offset={-70}
